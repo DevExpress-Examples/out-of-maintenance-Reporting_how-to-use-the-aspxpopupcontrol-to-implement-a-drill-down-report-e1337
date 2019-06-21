@@ -6,6 +6,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to use the ASPxPopupControl to implement a drill-down report
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1337)**
+<!-- run online end -->
 
 
 <p>This example illustrates how to implement a drill-down master-detail report using an ASPxPopupControl with an ASPxGridView inside it.</p><p>Some key points include:</p><p>- The XRLabel.HtmlItemCreated event is handled to make a hyperlink html element with the href='javascript:...' attribute via the e.ContentCell.InnerHtml parameter. This link will invoke a special script function to update detail data.<br />
