@@ -7,7 +7,7 @@
 <!-- default file list end -->
 # How to use the ASPxPopupControl to implement a drill-down report
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1337)**
+**[[Run Online]](https://codecentral.devexpress.com/e1337/)**
 <!-- run online end -->
 
 
