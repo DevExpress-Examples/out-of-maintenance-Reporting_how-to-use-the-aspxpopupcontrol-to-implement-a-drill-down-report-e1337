@@ -8,7 +8,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using DevExpress.XtraReports.Web;
-using DevExpress.Web.ASPxGridView;
+using DevExpress.Web;
 
 public partial class _Default : System.Web.UI.Page 
 {
@@ -31,7 +31,7 @@ public partial class _Default : System.Web.UI.Page
         (sender as ReportViewer).Report = null;
     }
 
-    protected void ASPxGridView1_CustomCallback(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewCustomCallbackEventArgs e)
+    protected void ASPxGridView1_CustomCallback(object sender, DevExpress.Web.ASPxGridViewCustomCallbackEventArgs e)
     {
         nwndDataSet ds = new nwndDataSet();
         nwndDataSetTableAdapters.ProductsTableAdapter pta = new nwndDataSetTableAdapters.ProductsTableAdapter();

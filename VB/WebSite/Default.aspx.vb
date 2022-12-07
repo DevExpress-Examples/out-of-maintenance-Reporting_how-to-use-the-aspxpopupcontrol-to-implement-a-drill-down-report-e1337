@@ -9,7 +9,7 @@ Imports System.Web.UI.WebControls
 Imports System.Web.UI.WebControls.WebParts
 Imports System.Web.UI.HtmlControls
 Imports DevExpress.XtraReports.Web
-Imports DevExpress.Web.ASPxGridView
+Imports DevExpress.Web
 
 Partial Public Class _Default
 	Inherits System.Web.UI.Page
@@ -30,7 +30,7 @@ Partial Public Class _Default
 		TryCast(sender, ReportViewer).Report = Nothing
 	End Sub
 
-	Protected Sub ASPxGridView1_CustomCallback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.ASPxGridViewCustomCallbackEventArgs)
+	Protected Sub ASPxGridView1_CustomCallback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewCustomCallbackEventArgs)
 		Dim ds As New nwndDataSet()
 		Dim pta As New nwndDataSetTableAdapters.ProductsTableAdapter()
 		Dim gridView As ASPxGridView = TryCast(sender, ASPxGridView)
